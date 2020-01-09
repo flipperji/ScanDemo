@@ -1,0 +1,21 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.huifu.hlmscan">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        tools:ignore="GoogleAppIndexingWarning"
+        android:supportsRtl="true">
+
+        <activity
+            android:name=".ScanActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/ScanTheme" />
+
+        <activity
+            android:name=".ResultActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/ScanResultTheme" />
+    </application>
+</manifest>

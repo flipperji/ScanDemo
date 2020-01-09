@@ -1,0 +1,2 @@
+include ':app', ':hlmscan'
+rootProject.name='ScanDemo'
